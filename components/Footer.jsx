@@ -21,13 +21,13 @@ export default function Footer() {
             achieve their international education dreams.
           </p>
           <div className="gap-x-5 pt-5 text-2xl font-bold flex items-center">
-            <FiFacebook className="hover:text-red-500 " />
-            <RxInstagramLogo className="hover:text-red-500 " />
+            <FiFacebook className="text-white hover:text-red-500 " />
+            <RxInstagramLogo className="text-white hover:text-red-500 " />
           </div>
         </div>
         {/* <col-2> */}
         <div className="">
-          <h2 className="pb-5 text-xl font-semibold">Quick Links</h2>
+          <h2 className="pb-5 text-xl font-semibold text-white">Quick Links</h2>
           <div className="text-gray-400">
             <a href="" className="block pb-3 hover:text-red-500">
               Our Services
@@ -48,7 +48,7 @@ export default function Footer() {
         </div>
         {/* col-3 */}
         <div className="">
-          <h2 className="pb-5 text-xl font-semibold">Our Services</h2>
+          <h2 className="pb-5 text-xl font-semibold text-white">Our Services</h2>
           <div className="text-gray-400">
             <a href="" className="block pb-3 hover:text-red-500">
               Personalized Course & University Selection
@@ -72,7 +72,7 @@ export default function Footer() {
         </div>
         {/* col-4 */}
         <div className="">
-          <h2 className="pb-5 text-xl font-semibold">Contact Us</h2>
+          <h2 className="pb-5 text-xl font-semibold text-white">Contact Us</h2>
           <div className="space-y-3 text-gray-400">
             <div className="flex gap-x-3">
               <div>

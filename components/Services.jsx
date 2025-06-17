@@ -20,8 +20,9 @@ export default function Services() {
           our services
         </div>
         <div className="mb-[36px]">
-          <h1 className="font-bold ralative z-10 mb-[2rem] text-[1.875rem] leading-[2.25rem]">
-           <span className="border-b-3 border-[#E04448]">All-in-One</span> Solution for International Education
+          <h1 className="font-bold ralative z-10 mb-[2rem] text-[1.875rem] leading-[2.25rem] text-[#FFFFFFCC]">
+            <span className="border-b-3 border-[#E04448]">All-in-One</span>{" "}
+            Solution for International Education
           </h1>
         </div>
         <div className="text-[18px] mt-[30px] ml-[8px] text-[#FFFFFFCC]">
