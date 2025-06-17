@@ -27,7 +27,7 @@ export default function Navbar() {
           <a href="#faq" className="text-gray-400 text-sm px-4 hover:text-red-500">
             FAQs
           </a>
-          <button className="text-sm font-semibold p-3 rounded-lg text-white bg-blue-950 mx-4">
+          <button className="text-sm font-semibold p-3 rounded-lg text-white bg-blue-950 mx-4 sm:hidden">
             Virtual Consultation
           </button>
         </div>
