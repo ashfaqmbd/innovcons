@@ -14,18 +14,18 @@ import card from "@/data/services.json";
 
 export default function Services() {
   return (
-    <div className="bg-[#122344]  py-10">
-      <div className="mx-auto text-center py-[60px]">
-        <div className="uppercase text-[#E04448] mb-3 text-[16px] font-bold">
+    <div className="bg-[#122344]  py-[3rem] w-full h-auto">
+      <div className="mx-auto text-center">
+        <div className="uppercase text-[#E04448] pb-5 text-[1rem] md:text-[1.5rem] font-bold">
           our services
         </div>
-        <div className="mb-[36px]">
-          <h1 className="font-bold ralative z-10 mb-[2rem] text-[1.875rem] leading-[2.25rem] text-[#FFFFFFCC]">
+        <div className="mb-[2rem]">
+          <h1 className="font-bold ralative z-10 mb-[2rem] text-[1.5rem] md:text-[2rem] leading-[2.25rem] text-[#FFFFFFCC]">
             <span className="border-b-3 border-[#E04448]">All-in-One</span>{" "}
             Solution for International Education
           </h1>
         </div>
-        <div className="text-[18px] mt-[30px] ml-[8px] text-[#FFFFFFCC]">
+        <div className="text-[1rem] md:text-[1.5rem] mt-[30px] ml-[8px] mb-5 text-[#FFFFFFCC]">
           UNLOCK YOUR POTENTIAL WITH THE RIGHT GUIDANCE
         </div>
       </div>

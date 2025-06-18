@@ -4,7 +4,7 @@ import philosophy from "@/data/philosophy.json";
 
 export default function Philosophy() {
   return (
-    <div className="bg-[#122344] py-20">
+    <div className="bg-[#122344] py-20 w-full h-1/2">
       <h2 className="text-center text-[#E04448] py-3 ">OUR PHILOSOPHY</h2>
       <h1 className="text-center text-white text-4xl font-extrabold">
         Empowering Your Academic Journey

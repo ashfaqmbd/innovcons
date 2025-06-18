@@ -4,12 +4,17 @@ import { SlLocationPin } from "react-icons/sl";
 import { SlPhone } from "react-icons/sl";
 import { MdOutlineEmail } from "react-icons/md";
 import { FiMessageSquare } from "react-icons/fi";
+import Image from "next/image";
+import Logo from "../images/Innovate-Logo-png.png";
 export default function Footer() {
   return (
     <div>
       <div className="space-y-10 grid lg:grid-cols-4 bg-[#132244] md:grid-cols-2 sm:grid-cols-1 gap-x-10 pt-10 pl-5 pr-5 mx-auto">
         {/* col-1 */}
         <div className="">
+          <Image className="w-35 h-35 mb-5" src={Logo} alt="logo" />
+        
+        
           <h2 className="">
             <span className="text-red-600 font-bold text-2xl">Innovate</span>{" "}
             <span className="text-white font-extrabold text-2xl">
@@ -21,8 +26,8 @@ export default function Footer() {
             achieve their international education dreams.
           </p>
           <div className="gap-x-5 pt-5 text-2xl font-bold flex items-center">
-            <FiFacebook className="text-white hover:text-red-500 " />
-            <RxInstagramLogo className="text-white hover:text-red-500 " />
+            <FiFacebook className="text-gray-400 hover:text-red-500 " />
+            <RxInstagramLogo className="text-gray-400 hover:text-red-500 " />
           </div>
         </div>
         {/* <col-2> */}
@@ -48,7 +53,9 @@ export default function Footer() {
         </div>
         {/* col-3 */}
         <div className="">
-          <h2 className="pb-5 text-xl font-semibold text-white">Our Services</h2>
+          <h2 className="pb-5 text-xl font-semibold text-white">
+            Our Services
+          </h2>
           <div className="text-gray-400">
             <a href="" className="block pb-3 hover:text-red-500">
               Personalized Course & University Selection
